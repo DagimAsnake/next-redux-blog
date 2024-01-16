@@ -63,14 +63,9 @@ const Navbar = () => {
                     Home
                   </h1>
                 </Link>
-                <Link href='/about'>
+                <Link href='/add'>
                   <p className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
-                    About
-                  </p>
-                </Link>
-                <Link href='/blog'>
-                  <p className='text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium'>
-                    Blog
+                    Add Blog
                   </p>
                 </Link>
               </div>
@@ -88,14 +83,9 @@ const Navbar = () => {
               Home
             </p>
           </Link>
-          <Link href='/about'>
+          <Link href='/add'>
             <p className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
-              About
-            </p>
-          </Link>
-          <Link href='/blog'>
-            <p className='text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium'>
-              Blog
+              Add Blog
             </p>
           </Link>
         </div>
